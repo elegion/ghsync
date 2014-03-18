@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="h_margin">16dp</dimen>
+    <dimen name="v_margin">16dp</dimen>
+
+    <dimen name="login_form_width">300dp</dimen>
+
+</resources>

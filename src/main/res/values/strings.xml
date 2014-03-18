@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GitHubSync</string>
+    <string name="github">GitHub</string>
+    <string name="login">Логин</string>
+    <string name="password">Пароль</string>
+    <string name="sign_in">Войти</string>
+    <string name="account_already_exists">Аккаунт уже существует</string>
+
+</resources>

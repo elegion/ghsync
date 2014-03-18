@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="github_obtain_token_url">https://api.github.com/authorizations/clients/%1$s</string>
+
+</resources>

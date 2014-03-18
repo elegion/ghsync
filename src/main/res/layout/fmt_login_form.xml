@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/v_margin"
+    android:paddingLeft="@dimen/h_margin"
+    android:paddingRight="@dimen/h_margin"
+    android:paddingTop="@dimen/v_margin"
+    tools:context="com.github.elegion.fragment.LoginForm">
+
+    <View
+        android:id="@+id/anchor_center"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_centerInParent="true" />
+
+    <EditText
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/password"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/login"
+        android:inputType="text"
+        android:minEms="12" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn_sign_in"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/v_margin"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:minEms="12" />
+
+    <Button
+        android:id="@+id/btn_sign_in"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/anchor_center"
+        android:layout_alignRight="@+id/password"
+        android:layout_marginTop="@dimen/v_margin"
+        android:text="@string/sign_in" />
+
+</RelativeLayout>
